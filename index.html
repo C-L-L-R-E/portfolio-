@@ -1,28 +1,106 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>My Portfolio — [Your Name]</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Portfolio — Clore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body{font-family:Arial,Helvetica,sans-serif;max-width:800px;margin:40px auto;padding:0 20px;}
-    header{display:flex;align-items:center;gap:12px;}
-    h1{margin:0;}
-    a{color:blue}
-    .projects{margin-top:24px}
-    .project{border:1px solid #ddd;padding:12px;border-radius:8px;margin-bottom:12px}
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px;
+      background: #f4f6f8;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 0 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+    }
+
+    p.tagline {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .projects {
+      margin-top: 40px;
+    }
+
+    .projects h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 5px;
+    }
+
+    .project {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-3px);
+    }
+
+    .project h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      color: #666;
+    }
   </style>
 </head>
 <body>
-<header><h1>[Your Name]</h1></header>
-<p>I'm building AI tools & small web apps. This is Day 1 of my 90-day sprint.</p>
-<section class="projects">
-  <h2>Projects</h2>
-  <div class="project">
-    <h3>Portfolio (this page)</h3>
-    <p>Repo: <a href="https://github.com/USERNAME/portfolio">github.com/USERNAME/portfolio</a></p>
-  </div>
-</section>
-<footer><p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a></p></footer>
+  <header>
+    <h1>Clore</h1>
+    <p class="tagline">I'm building AI tools & small web apps. This is Day 1 of my 90-day</p>
+  </header>
+
+  <section class="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Portfolio (this page)</h3>
+      <p>Repo: <a href="https://github.com/C-L-L-R-E/portfolio" target="_blank">github.com/C-L-L-R-E/portfolio</a></p>
+    </div>
+
+    <!-- Example future project -->
+    <div class="project">
+      <h3>My First AI App</h3>
+      <p>A simple web app that uses AI to generate text based on prompts.</p>
+      <p><a href="#">View project</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact: <a href="mailto:c.l.l.r.0.err@gmail.com">c.l.l.r.0.err@gmail.com</a></p>
+    <p>© 2025 Clore. All rights reserved.</p>
+  </footer>
 </body>
 </html>
+
